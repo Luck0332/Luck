@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <form action="">
+            <h1>Workshop #HTML - FORM</h1>
+            <div class="form-grub">
+                <label>ชื่อ</label> 
+                <label><input type="text" class="form-input"></label>
+            </div>
+            <div class="form-grub">
+                <label>สกุล</label>
+                <label><input type="text" class="form-input"></label>
+            </div>
+            <div class="form-date">
+                <label>วัน/เดือน/ปีเกิด </label>
+                <label class="ages">&nbsp;&nbsp;&nbsp; อายุ <br></label>
+                <label><input type="date" placeholder="dd/mm/yyyy" class="form-input-ui"></label>
+                <label class="input-age"><input type="text" class="form-input-ui"></label>
+            </div>
+            <div class="form-radio">
+                <label><br>เพศ &nbsp;</label>
+                <label><input id="radio_a"
+                        type="radio" 
+                        name="same_radio" />
+                        <label for="radio_a">ชาย</label>
+                    <input id="radio_b"
+                        type="radio" 
+                        name="same_radio" />
+                        <label for="radio_a">หญิง</label>
+                </label>
+            </div>
+            <div class="form-file">
+                <label><br> รูป</label>
+                <label><input type="file" class="form-input"></label>
+            </div>
+            <div class="form-grub">
+                <label>ที่อยู่</label>
+                <label class="Text-area"><textarea rows="4" class="form-input"></textarea></label>
+            </div>
+            <div class="form-grub">
+                <label>สีที่ชอบ</label>
+                <label>
+                    <select>
+                        <option value=""
+                        disabled
+                        selected></option>
+                        <option>สีแดง</option>
+                        <option>สีส้ม</option>
+                        <option>สีชมพู</option>
+                        <option>สีเขียว</option>
+                        <option>สีเหลือง</option>
+                        <option>สีฟ้า</option>
+                        <option>สีม่วง</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-radio">
+                <label>แนวเพลงที่ชอบ &nbsp;</label>
+                <label>
+                    <input id="radio_a"
+                        type="radio" 
+                        name="same_radio" class="form-radio"/>
+                        <label for="radio_a">เพื่อชีวิต</label>
+                    <input id="radio_b"
+                        type="radio" 
+                        name="same_radio" class="form-radio"/>
+                        <label for="radio_b">ลูกทุ่ง</label>
+                    <input id="radio_c"
+                        type="radio" 
+                        name="same_radio" class="form-radio"/>
+                        <label for="radio_c">อื่นๆ</label>
+                </label>
+            </div>
+        
+            <div class="form-Accept">
+                <label><br><input type="checkbox" name="checkbox_Accept" class="form-checkbox"> ยินยอมให้เก็บข้อมูล <br></label>
+            </div>
+            
+            <div class="form-submid">
+                <label><br><input type="reset" value="Reset" style="background-color:#990033; color:white;" class="form-submid-one"></label>
+                <label><br><input type="submit" value="Submit" style="background-color:#006600; color:white;" class="form-submid-two"></label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

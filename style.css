@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url(picture.jpg);
+    background-size: cover;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    
+}
+.main{
+    width: 550px;
+    color: #fff;
+    margin-top: 50px;
+    ;margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    
+}
+
+.main h1{
+    font-size: 34px;
+    text-align: center;
+}
+
+.main .form-input{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+}
+.main .form-input-ui{
+    width: 30%;
+    height: 100%;
+    margin: 10px 0;
+    padding: 20px 20px 10px 20px;
+    padding-bottom: 15px;
+    font-size: 10px;
+}
+
+.ages{
+    margin-left: 100px;
+}
+.input-age{
+    margin-left: 85px;
+}
+
+.form-grub  input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, 2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.form-date input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, 2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.form-age input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, 2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.Text-area > textarea{
+    padding-top: 3px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.form-submid input{
+    width: 90%;
+    height: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    
+}
+
+
+.form-submid{
+    display: flex;
+    
+}
+
+.form-submid-one{
+    margin: 20px;
+    padding: 20px;
+}
+
+.form-submid-two{
+    margin: 20px;
+    padding: 20px;
+}
+
+.form-submid-two input{
+    padding: 40px;
+}
+
+
+
